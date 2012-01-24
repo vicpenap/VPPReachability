@@ -5,10 +5,12 @@ It allows two ways of use:
  - Delegating.
 
  ## Direct queries
+
  Once the helper is started, each call to isInternetAvailable will return the 
  current status. 
  
  ## Delegating
+
  If you want to be notified each time the access status changes, use this method.
  Implement VPPReachabilityHelperDelegate and add your class as delegate.
 
