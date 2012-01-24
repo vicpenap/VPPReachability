@@ -59,7 +59,6 @@
 		5701A39614CEAC760099880B = {
 			isa = PBXGroup;
 			children = (
-				5701A3C914CEAE2F0099880B /* SystemConfiguration.framework */,
 				5701A3AB14CEAC760099880B /* VPPReachability */,
 				5701A3A414CEAC760099880B /* Frameworks */,
 				5701A3A214CEAC760099880B /* Products */,
@@ -77,6 +76,7 @@
 		5701A3A414CEAC760099880B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5701A3C914CEAE2F0099880B /* SystemConfiguration.framework */,
 				5701A3A514CEAC760099880B /* UIKit.framework */,
 				5701A3A714CEAC760099880B /* Foundation.framework */,
 				5701A3A914CEAC760099880B /* CoreGraphics.framework */,
@@ -296,6 +296,7 @@
 				5701A3BB14CEAC760099880B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

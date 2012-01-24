@@ -12,10 +12,12 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize navigationController;
 
 - (void)dealloc
 {
     [_window release];
+    self.navigationController = nil;
     [super dealloc];
 }
 
@@ -25,10 +27,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     RootViewController *r = [[RootViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:r];
+    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:r] autorelease];
     [r release];
-    [self.window addSubview:nv.view];
-    [nv release];
+    [self.window addSubview:self.navigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
