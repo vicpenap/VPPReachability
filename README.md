@@ -4,15 +4,15 @@ It allows two ways of use:
  - Direct queries.
  - Delegating.
 
- ## Direct queries
+## Direct queries
 
- Once the helper is started, each call to isInternetAvailable will return the 
- current status. 
+Once the helper is started, each call to isInternetAvailable will return the 
+current status. 
  
- ## Delegating
+## Delegating
 
- If you want to be notified each time the access status changes, use this method.
- Implement VPPReachabilityHelperDelegate and add your class as delegate.
+If you want to be notified each time the access status changes, use this method.
+Implement VPPReachabilityHelperDelegate and add your class as delegate.
 
 This project contains a sample application using it. Just open the project in 
 XCode, build it and run it. 
