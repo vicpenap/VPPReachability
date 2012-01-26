@@ -17,7 +17,5 @@ Implement VPPReachabilityHelperDelegate and add your class as delegate.
 This project contains a sample application using it. Just open the project in 
 XCode, build it and run it. 
 
-The library source code is located at [VPPReachability/Libraries/VPPReachability](https://github.com/vicpenap/VPPReachability/tree/master/VPPReachability/Libraries/VPPReachability).
-
 For full documentation check out 
 http://vicpenap.github.com/VPPReachability
