@@ -20,14 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5701A3A114CEAC760099880B /* VPPReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPPReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5701A3A114CEAC760099880B /* VPPReachabilityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPPReachabilityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5701A3A514CEAC760099880B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5701A3A714CEAC760099880B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5701A3A914CEAC760099880B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5701A3AD14CEAC760099880B /* VPPReachability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPPReachability-Info.plist"; sourceTree = "<group>"; };
+		5701A3AD14CEAC760099880B /* VPPReachabilityExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "VPPReachabilityExample-Info.plist"; sourceTree = "<group>"; };
 		5701A3AF14CEAC760099880B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5701A3B114CEAC760099880B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5701A3B314CEAC760099880B /* VPPReachability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPPReachability-Prefix.pch"; sourceTree = "<group>"; };
+		5701A3B314CEAC760099880B /* VPPReachabilityExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPPReachabilityExample-Prefix.pch"; sourceTree = "<group>"; };
 		5701A3B414CEAC760099880B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5701A3B514CEAC760099880B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5701A3BC14CEAC900099880B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		5701A39614CEAC760099880B = {
 			isa = PBXGroup;
 			children = (
-				5701A3AB14CEAC760099880B /* VPPReachability */,
+				5701A3AB14CEAC760099880B /* VPPReachabilityExample */,
 				5701A3A414CEAC760099880B /* Frameworks */,
 				5701A3A214CEAC760099880B /* Products */,
 			);
@@ -68,7 +68,7 @@
 		5701A3A214CEAC760099880B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5701A3A114CEAC760099880B /* VPPReachability.app */,
+				5701A3A114CEAC760099880B /* VPPReachabilityExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5701A3AB14CEAC760099880B /* VPPReachability */ = {
+		5701A3AB14CEAC760099880B /* VPPReachabilityExample */ = {
 			isa = PBXGroup;
 			children = (
 				5701A3BF14CEAE1A0099880B /* Libraries */,
@@ -94,16 +94,16 @@
 				5701A3B514CEAC760099880B /* AppDelegate.m */,
 				5701A3AC14CEAC760099880B /* Supporting Files */,
 			);
-			path = VPPReachability;
+			path = VPPReachabilityExample;
 			sourceTree = "<group>";
 		};
 		5701A3AC14CEAC760099880B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5701A3AD14CEAC760099880B /* VPPReachability-Info.plist */,
+				5701A3AD14CEAC760099880B /* VPPReachabilityExample-Info.plist */,
 				5701A3AE14CEAC760099880B /* InfoPlist.strings */,
 				5701A3B114CEAC760099880B /* main.m */,
-				5701A3B314CEAC760099880B /* VPPReachability-Prefix.pch */,
+				5701A3B314CEAC760099880B /* VPPReachabilityExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5701A3A014CEAC760099880B /* VPPReachability */ = {
+		5701A3A014CEAC760099880B /* VPPReachabilityExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5701A3B914CEAC760099880B /* Build configuration list for PBXNativeTarget "VPPReachability" */;
+			buildConfigurationList = 5701A3B914CEAC760099880B /* Build configuration list for PBXNativeTarget "VPPReachabilityExample" */;
 			buildPhases = (
 				5701A39D14CEAC760099880B /* Sources */,
 				5701A39E14CEAC760099880B /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = VPPReachability;
+			name = VPPReachabilityExample;
 			productName = VPPReachability;
-			productReference = 5701A3A114CEAC760099880B /* VPPReachability.app */;
+			productReference = 5701A3A114CEAC760099880B /* VPPReachabilityExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 5701A39B14CEAC760099880B /* Build configuration list for PBXProject "VPPReachability" */;
+			buildConfigurationList = 5701A39B14CEAC760099880B /* Build configuration list for PBXProject "VPPReachabilityExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5701A3A014CEAC760099880B /* VPPReachability */,
+				5701A3A014CEAC760099880B /* VPPReachabilityExample */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +231,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "VPPReachabilityExample/VPPReachabilityExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
@@ -248,6 +249,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "VPPReachabilityExample/VPPReachabilityExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -259,9 +261,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VPPReachability/VPPReachability-Prefix.pch";
-				INFOPLIST_FILE = "VPPReachability/VPPReachability-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VPPReachabilityExample/VPPReachabilityExample-Prefix.pch";
+				INFOPLIST_FILE = "VPPReachabilityExample/VPPReachabilityExample-Info.plist";
+				PRODUCT_NAME = VPPReachabilityExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,9 +272,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VPPReachability/VPPReachability-Prefix.pch";
-				INFOPLIST_FILE = "VPPReachability/VPPReachability-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VPPReachabilityExample/VPPReachabilityExample-Prefix.pch";
+				INFOPLIST_FILE = "VPPReachabilityExample/VPPReachabilityExample-Info.plist";
+				PRODUCT_NAME = VPPReachabilityExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,7 +282,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5701A39B14CEAC760099880B /* Build configuration list for PBXProject "VPPReachability" */ = {
+		5701A39B14CEAC760099880B /* Build configuration list for PBXProject "VPPReachabilityExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5701A3B714CEAC760099880B /* Debug */,
@@ -289,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5701A3B914CEAC760099880B /* Build configuration list for PBXNativeTarget "VPPReachability" */ = {
+		5701A3B914CEAC760099880B /* Build configuration list for PBXNativeTarget "VPPReachabilityExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5701A3BA14CEAC760099880B /* Debug */,
