@@ -126,9 +126,8 @@
 				5701A3C514CEAE1A0099880B /* VPPReachabilityHelper.m */,
 				5701A3C614CEAE1A0099880B /* VPPReachabilityHelperDelegate.h */,
 			);
-			name = VPPReachability;
-			path = ../../VPPReachability;
-			sourceTree = "<group>";
+			path = VPPReachability;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
