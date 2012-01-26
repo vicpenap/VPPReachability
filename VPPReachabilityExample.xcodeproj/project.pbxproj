@@ -111,7 +111,6 @@
 		5701A3BF14CEAE1A0099880B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				5701A3C014CEAE1A0099880B /* SynthesizeSingleton.h */,
 				5701A3C114CEAE1A0099880B /* VPPReachability */,
 			);
 			path = Libraries;
@@ -120,13 +119,15 @@
 		5701A3C114CEAE1A0099880B /* VPPReachability */ = {
 			isa = PBXGroup;
 			children = (
+				5701A3C014CEAE1A0099880B /* SynthesizeSingleton.h */,
 				5701A3C214CEAE1A0099880B /* Reachability.h */,
 				5701A3C314CEAE1A0099880B /* Reachability.m */,
 				5701A3C414CEAE1A0099880B /* VPPReachabilityHelper.h */,
 				5701A3C514CEAE1A0099880B /* VPPReachabilityHelper.m */,
 				5701A3C614CEAE1A0099880B /* VPPReachabilityHelperDelegate.h */,
 			);
-			path = VPPReachability;
+			name = VPPReachability;
+			path = ../../VPPReachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
