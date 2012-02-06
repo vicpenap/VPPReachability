@@ -1,6 +1,6 @@
 # VPPReachability
 
-VPPReachability Library for iOS simplifies the access status to a given hostname. 
+VPPReachability Library for iOS simplifies access to the status of a given hostname. 
 
 This project contains a sample application using it. Just open the project in 
 XCode, build it and run it. 
